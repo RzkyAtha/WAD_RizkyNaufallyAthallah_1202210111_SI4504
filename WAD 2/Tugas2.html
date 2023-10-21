@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ARN Bojongsoang</title>
+</head>
+<body>
+    <h1>JavaScript Changing Images</hl>
+    <img id="myImage" onclick="changeImage()" src="tenetenet.gif" width="180" height="180">
+    <p>Click the image to change image.</p>
+    <script>
+        function changeImage() {
+        var image = document.getElementById('myImage') ;
+        if (image.src.match("bulbon")) {
+            image.src="grah.gif";
+        } else {
+            image.src = "boleh.gif";
+        }
+    }
+    </script>
+</body>
+</html>
